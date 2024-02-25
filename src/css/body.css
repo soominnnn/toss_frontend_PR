@@ -26,11 +26,19 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Pretendard-ExtraBold';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraBold.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
 :root {
   --font-Regular: 'Pretendard-Regular';
   --font-Medium: 'Pretendard-Medium';
   --font-SemiBold: 'Pretendard-SemiBold';
   --font-Bold: 'Pretendar-Bold';
+  --font-ExtraBold: 'Pretendar-ExtraBold';
 }
 
 [data-aos="custom-animate"] {
