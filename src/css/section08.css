@@ -12,26 +12,21 @@
 #section08 .section08_container {
   max-width: 1040px;
   padding-top: 148px;
+  padding-left: 40px;
   margin: 0px auto;
 }
 
 #section08 .section08_container h1 {
-  font-family: 'Pretendard-SemiBold';
+  font-family: var(--font-Bold);
   font-size: 48px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.31;
   margin-bottom: 16px;
   color: rgb(255, 255, 255);
 }
 
 #section08 .section08_container p {
-  font-family: 'Pretendard-Regular';
+  font-family: var(--font-Medium);
   font-size: 20px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.58;
   letter-spacing: normal;
   color: rgb(139, 149, 161);
