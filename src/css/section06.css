@@ -1,0 +1,39 @@
+#section06 {
+  position: relative;
+  width: 100%;
+  background-color: rgb(14, 16, 17);
+  background-image: url('../../image/section06.png');
+  background-size: auto 630px;
+  background-repeat: no-repeat;
+  background-position: 50vw 58%;
+  height: 733px;
+  letter-spacing: normal;
+}
+
+#section06 .section06_container {
+  padding: 257px 0px;
+  max-width: 1040px;
+  margin: 0px auto;
+}
+
+#section06 .section06_container h1 {
+  font-family: 'Pretendard-Bold';
+  font-size: 51px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.31;
+  margin-bottom: 16px;
+  color: rgb(255, 255, 255);
+}
+
+#section06 .section06_container p {
+  font-family: 'Pretendard-Regular';
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.58;
+  letter-spacing: normal;
+  color: rgb(139, 149, 161);
+}
