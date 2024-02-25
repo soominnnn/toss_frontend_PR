@@ -18,9 +18,6 @@
 #footer a:visited {
   color: rgb(107, 118, 132);
 }
-#footer a:visited {
-  color: rgb(107, 118, 132);
-}
 
 #footer .footer_container .map .mapList {
   float: left;
@@ -43,6 +40,10 @@
 
 #footer .map .mapList .mapTitle a{
   color: black;
+}
+
+#footer .map .mapList .mapItem a{
+  color: rgb(107, 118, 132);
 }
 
 #footer .company { 
