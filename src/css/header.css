@@ -22,8 +22,6 @@ header .header_container {
   margin-left: auto;
   padding: 12px 18px;
   box-sizing: border-box;
-  font-weight: 400;
-  line-height: 1.5;
 }
 
 header .header_container .toss_icon {
@@ -43,14 +41,23 @@ header .header_container nav {
 
 header .header_container nav a {
   display: inline-block;
+  height: 40px;
+  margin-top: 11px;
   margin-right: 10px;
   margin-left: 10px;
-  padding: 10px 6px;
+  padding-bottom: 10px;
+  padding-left: 6px;
+  padding-right: 6px;
   color: rgb(78, 89, 104);
   vertical-align: top;
   text-decoration: none;
-  font-family: 'Pretendard-Regular';
-  font-size: 16px;
+  font-family: var(--font-Medium);
+  font-size: 17px;
+}
+
+header .header_container nav a:hover{
+  background-color: #F0F1F2;
+  border-radius: 10px;
 }
 
 header .header_container .toss_icon img {
