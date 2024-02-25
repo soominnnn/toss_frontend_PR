@@ -32,10 +32,7 @@
 #section02 .section02_container p {
   font-family: var(--font-Regular);
   font-size: 20px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.58;
-  letter-spacing: normal;
+  letter-spacing: 1px;
   color: rgb(139, 149, 161);
 }
