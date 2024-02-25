@@ -1,0 +1,59 @@
+header {
+  width: 100vw;
+  height: 60px;
+  background-color: #D9D9D9;
+  z-index: 999;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  transition: background-color 0.25s ease-in-out 0s;
+}
+
+header.scrolled {
+  background-color: white;
+}
+
+header .header_container {
+  position: relative;
+  width: 100vw;
+  max-width: 1080px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 12px 18px;
+  box-sizing: border-box;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+header .header_container .toss_icon {
+  display: inline-block;
+  padding: 10px;
+  vertical-align: top;
+  margin-left: -8px;
+  float: left;
+  margin-top: -5px;
+}
+
+header .header_container nav {
+  text-align: right;
+  box-sizing: border-box;
+  margin-top: -18px;
+}
+
+header .header_container nav a {
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 10px 6px;
+  color: rgb(78, 89, 104);
+  vertical-align: top;
+  text-decoration: none;
+  font-family: 'Pretendard-Regular';
+  font-size: 16px;
+}
+
+header .header_container .toss_icon img {
+  height: 28px;
+}
+
