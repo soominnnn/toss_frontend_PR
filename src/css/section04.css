@@ -19,7 +19,7 @@
 
 #section04 .section04_container h1 {
   font-family: var(--font-Bold);
-  font-size: 51px;
+  font-size: 50px;
   line-height: 1.25;
   letter-spacing: 1px;
   margin-bottom: 16px;
@@ -30,9 +30,6 @@
 #section04 .section04_container p {
   font-family: var(--font-Medium);
   font-size: 20px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.58;
   letter-spacing: normal;
   color: rgb(139, 149, 161);
