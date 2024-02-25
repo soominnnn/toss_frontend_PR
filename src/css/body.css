@@ -11,6 +11,11 @@
   font-style: normal;
 }
 
+:root {
+  --font-Regular: 'Pretendard-Regular';
+  --font-Bold: 'Pretendar-Bold';
+}
+
 [data-aos="custom-animate"] {
   opacity : 0;
   transform: translateZ(0);
