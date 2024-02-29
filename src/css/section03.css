@@ -18,7 +18,7 @@
 }
 
 #section03 .section03_container h1 {
-  font-family: 'Pretendard-Bold';
+  font-family: var(--font-Bold);
   font-size: 50px;
   line-height: 1.28;
   letter-spacing: 1.5px;
@@ -28,7 +28,7 @@
 }
 
 #section03 .section03_container p {
-  font-family: 'Pretendard-Medium';
+  font-family: var(--font-Medium);
   font-size: 20px;
   font-weight: 500;
   font-stretch: normal;
